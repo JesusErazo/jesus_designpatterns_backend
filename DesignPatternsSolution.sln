@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36705.20
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creationals", "Creationals", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structurals", "Structurals", "{5CB43123-3950-40E7-98DD-3B22919FDDA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creationals\Singleton\Singleton.csproj", "{ED2B760E-4BC0-46FD-3257-4CEA0837392E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,16 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2B760E-4BC0-46FD-3257-4CEA0837392E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2B760E-4BC0-46FD-3257-4CEA0837392E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2B760E-4BC0-46FD-3257-4CEA0837392E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2B760E-4BC0-46FD-3257-4CEA0837392E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3069D4D3-FCE1-41A4-A8E7-D3E2A143D837} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C475ED39-4D9C-4623-9E6D-70D10B8E3020}
