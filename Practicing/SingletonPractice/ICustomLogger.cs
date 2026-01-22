@@ -1,0 +1,7 @@
+﻿namespace SingletonPractice
+{
+  internal interface ICustomLogger
+  {
+    void Log(string message);
+  }
+}
